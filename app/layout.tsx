@@ -3,12 +3,34 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kokorone",
-  description: "こころに寄り添うAI相談アプリ",
-  icons: {
-    icon: "/Kokorone.png",
-    shortcut: "/Kokorone.png",
-    apple: "/Kokorone.png",
+  metadataBase: new URL("https://kokorone.space"),
+
+  title: "Kokorone | あなたの声に、心で応えるAIカウンセリング",
+  description:
+    "Kokoroneは、気持ちを整理したいときにいつでも話せるAIカウンセリングサービスです。",
+
+  openGraph: {
+    title: "Kokorone",
+    description:
+      "あなたの声に、心で応えるAIカウンセリング",
+    url: "https://kokorone.space",
+    siteName: "Kokorone",
+    type: "website",
+    images: [
+      {
+        url: "/images/kokorone-og.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Kokorone",
+    description:
+      "あなたの声に、心で応えるAIカウンセリング",
+    images: ["/images/kokorone-og.png"],
   },
 };
 
