@@ -11,8 +11,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Kokorone",
-    description:
-      "あなたの声に、心で応えるAIカウンセリング",
+    description: "あなたの声に、心で応えるAIカウンセリング",
     url: "https://kokorone.space",
     siteName: "Kokorone",
     type: "website",
@@ -21,6 +20,7 @@ export const metadata: Metadata = {
         url: "/images/kokorone-og.png",
         width: 1200,
         height: 630,
+        alt: "Kokorone",
       },
     ],
   },
@@ -28,8 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Kokorone",
-    description:
-      "あなたの声に、心で応えるAIカウンセリング",
+    description: "あなたの声に、心で応えるAIカウンセリング",
     images: ["/images/kokorone-og.png"],
   },
 };
