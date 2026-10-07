@@ -15,21 +15,12 @@ export const metadata: Metadata = {
     url: "https://kokorone.space",
     siteName: "Kokorone",
     type: "website",
-    images: [
-      {
-        url: "/images/kokorone-og.png",
-        width: 1200,
-        height: 630,
-        alt: "Kokorone",
-      },
-    ],
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Kokorone",
     description: "あなたの声に、心で応えるAIカウンセリング",
-    images: ["/images/kokorone-og.png"],
   },
 };
 
